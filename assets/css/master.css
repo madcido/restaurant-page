@@ -1,0 +1,100 @@
+@font-face {
+    font-family: segoe-script-2;
+    src: url("../fonts/segoe-script-2.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: segoe-script-2, arial;
+}
+
+#content {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.home {
+    background: url("../images/ambient.jpg");
+}
+
+.menu {
+    background: url("../images/coffee.jpg");
+}
+
+.contact {
+    background: url("../images/meal.jpg");
+}
+
+.about {
+    background: url("../images/cat.jpg");
+}
+
+.tabs {
+    box-shadow: 0 0 1px black;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.tabs div {
+    transition: 1s;
+    cursor: pointer;
+}
+
+.tabs img {
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 80px;
+    padding: 20px;
+}
+
+.tabs .logo {
+    max-height: none;
+    width: 370px;
+}
+
+.unselected:hover:not(:first-child) {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.selected:not(:first-child) {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.display {
+    width: 70vw;
+}
+
+.display div {
+    width: 80%;
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 1px black;
+    border-radius: 30px;
+    padding-top: 25px;
+}
+
+.display div img {
+    width: 100%;
+}
+
+.display div h1 {
+    font-size: 32px;
+    padding: 25px;
+    padding-top: 0;
+    margin: 0;
+    color: #c5e0dc;
+}
+
+.display div p {
+    font-size: 26px;
+    line-height: 48px;
+    padding: 25px;
+    padding-top: 0;
+    margin: 0;
+    color: #ece5ce;
+}
