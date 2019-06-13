@@ -4,4 +4,4 @@ Assignment: https://www.theodinproject.com/courses/javascript/lessons/restaurant
 
 Authors: <a href="https://github.com/madcido">Fabio Carmo</a>
 
-Preview: https://raw.githack.com/madcido/restaurant-page/dev/index.html
+Preview: https://raw.githack.com/madcido/restaurant-page/master/index.html
