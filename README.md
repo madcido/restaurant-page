@@ -1,18 +1,13 @@
-The Odin Project - JavaScript project: Restaurant Page
+# Restaurant Page
+The Odin Project, Javascript Course: Build a modular web page to practice DOM manipulation
 
-Assignment: https://www.theodinproject.com/courses/javascript/lessons/restaurant-page
-
-Author: <a href="https://github.com/madcido">Fabio Carmo</a>
-
-Preview: 
-
+## Live preview
 https://raw.githack.com/madcido/restaurant-page/master/index.html
 
-https://madcido.github.io/restaurant-page/
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine.
 
-## Installation Guide
-### Prerequisities
-System dependencies:
+### Prerequisites
 ```
 $ node -v
   v10.15.3
@@ -24,17 +19,20 @@ $ webpack -v
   4.34.0
 ```
 
-#### Local setup
-##### Clone project
+### Installing
+Clone the project:
 ```
 $ git clone https://github.com/madcido/restaurant-page.git
 $ cd ./restaurant-page
 ```
-##### Install dependencies
+Install dependencies:
 ```
 $ npm install
 ```
-##### Build project
+Build the project:
 ```
 $ npm start
 ```
+
+## Authors
+* **<a href="https://github.com/madcido">Fabio Carmo</a>**
